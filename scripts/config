@@ -1,0 +1,43 @@
+#  this is the configure file of what web will be collect
+#	m_jd:手机京东客户端
+#	m_yx：手机易迅客户端
+#	m_yhd：手机一号店客户端
+#	m_jmyp：手机聚美优品客户端
+#	m_dd：手机当当客户端
+#	m_pp：手机拍拍客户端
+#	m_sn：手机苏宁客户端
+#	m_tm：手机天猫和淘宝客户端
+#
+#	前面没有加 ‘m_’代表是电脑网页
+#
+#	如果要获取手机京东客户端的搜索信息：  CONFIG_m_jd=y
+#	如果不设置就不用写就行
+
+
+CONFIG_m_jd=y
+CONFIG_m_yx=y
+CONFIG_m_yhd=y
+CONFIG_m_jmyp=y
+CONFIG_m_dd=y
+CONFIG_m_pp=y
+CONFIG_m_sn=y
+CONFIG_m_tm=y
+
+#CONFIG_JD is not set
+#CONFIG_YX is not set
+#CONFIG_YHD is not set
+#CONFIG_PP is not set
+#CONFIG_DD is not set
+#CONFIG_TM is not set
+#CONFIG_TB is not set
+#CONFIG_SN is not set
+#CONFIG_JMYP is not set
+
+#这里可以定义两个服务器（至少要有一个），当服务器1不可以用时就用服务器2
+SERVER1=192.168.18.111:9876
+
+SERVER2=192.168.18.105:9876
+
+#消息数达到这个数量就会整理、发送给服务器（必须配置的选项）
+KEEP_MAX=10
+

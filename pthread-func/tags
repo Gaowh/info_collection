@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+abstract_info	pthread_func.c	/^int abstract_info( struct info_from_task *info, struct task * tsk)$/;"	f
+dd_get_keyword	pthread_func.c	/^int dd_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+get_keyword	pthread_func.c	/^int get_keyword(char *keyword, char *urlcode, size_t urllen)$/;"	f
+jd_get_keyword	pthread_func.c	/^int jd_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+m1_get_keyword	pthread_func.c	/^int m1_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+m_dd_get_keyword	pthread_func.c	/^int m_dd_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+m_jd_get_keyword	pthread_func.c	/^int m_jd_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+m_jmyp_get_keyword	pthread_func.c	/^int m_jmyp_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+m_pp_get_keyword	pthread_func.c	/^int m_pp_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+m_sn_get_keyword	pthread_func.c	/^int m_sn_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+m_tm_get_keyword	pthread_func.c	/^int m_tm_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+m_yhd_get_keyword	pthread_func.c	/^int m_yhd_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+m_yx_get_keyword	pthread_func.c	/^int m_yx_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+pp_get_keyword	pthread_func.c	/^int pp_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+sn_get_keyword	pthread_func.c	/^int sn_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+tb_get_keyword	pthread_func.c	/^int tb_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+tm_get_keyword	pthread_func.c	/^int tm_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+worker_func	pthread_func.c	/^void *worker_func(void *arg)$/;"	f
+yx_get_keyword	pthread_func.c	/^int yx_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f

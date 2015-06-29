@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+LEVEL_DEBUG	infolog.h	11;"	d
+LEVEL_ERR	infolog.h	10;"	d
+LEVEL_INFO	infolog.h	12;"	d
+LOGPATH	infolog.h	7;"	d
+MAX_LOG_BUF	infolog.h	8;"	d
+_INFOLOG_H	infolog.h	2;"	d
+clear_log	infolog.c	/^int clear_log( )$/;"	f
+close_log	infolog.c	/^int close_log(int fd)$/;"	f
+do_log	infolog.c	/^int do_log(char *comments, int len, int level)$/;"	f
+main	test.c	/^int main()$/;"	f
+open_log	infolog.c	/^int open_log()$/;"	f
+writelog	infolog.c	/^int writelog(int fd, char * logbuf, int len)$/;"	f

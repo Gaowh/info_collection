@@ -1,0 +1,164 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLEAR_TIMESLOT	hash-table/hash.h	22;"	d
+CODE_H	include/code.h	2;"	d
+GetBase64Value	decode/base64.c	/^}char GetBase64Value(char ch) \/\/得到编码值$/;"	f
+INIT_LIST_HEAD	include/mylist.h	/^static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+LEVEL_DEBUG	log/infolog.h	11;"	d
+LEVEL_ERR	log/infolog.h	10;"	d
+LEVEL_INFO	log/infolog.h	12;"	d
+LIST_HEAD	include/mylist.h	11;"	d
+LIST_HEAD_INIT	include/mylist.h	9;"	d
+LOGPATH	log/infolog.h	6;"	d
+MAXLEN	include/code.h	16;"	d
+MAX_BUF_SIZE	include/task.h	49;"	d
+MAX_HASH_NODE	hash-table/hash.h	21;"	d
+MAX_INFO_IN_QUEUE	include/task.h	67;"	d
+MAX_INFO_SIZE	include/task.h	68;"	d
+MAX_LOG_BUF	log/infolog.h	8;"	d
+MESSAGE_PUSH	include/message.h	7;"	d
+NETLINK_GROUP_ID	include/task.h	50;"	d
+TYPE_CLICK	include/task.h	45;"	d
+TYPE_DD	include/task.h	39;"	d
+TYPE_JD	include/task.h	34;"	d
+TYPE_JMYP	include/task.h	42;"	d
+TYPE_MSEARCH	include/task.h	47;"	d
+TYPE_PP	include/task.h	38;"	d
+TYPE_SEARCH	include/task.h	46;"	d
+TYPE_SN	include/task.h	37;"	d
+TYPE_TB	include/task.h	36;"	d
+TYPE_TM	include/task.h	35;"	d
+TYPE_YHD	include/task.h	41;"	d
+TYPE_YX	include/task.h	40;"	d
+WRONG_MESSAGE	include/task.h	54;"	d
+WRONG_MESSAGE_ERRNO	include/task.h	60;"	d
+_HASH_H	hash-table/hash.h	2;"	d
+_INFOLOG_H	log/infolog.h	2;"	d
+_KMP_H	kmp-mt/kmp.h	2;"	d
+_MESSAGE_H	include/message.h	2;"	d
+_MYLIST_H	include/mylist.h	2;"	d
+_PTHREAD_FUNC_H	include/pthread_func.h	2;"	d
+_TASK_H	include/task.h	2;"	d
+__list_add	include/mylist.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_del	include/mylist.h	/^static inline void __list_del(struct list_head *prev, struct list_head *next)$/;"	f
+abstract_info	pthread-func/pthread_func.c	/^int abstract_info( struct info_from_task *info, struct task * tsk)$/;"	f
+addrtype	include/task.h	/^	type_t 	addrtype; $/;"	m	struct:info_from_task
+base64_decode	decode/base64.c	/^int base64_decode( char *gb2312string, char *base64string, int base64_len, int force )  \/\/解码函数$/;"	f
+base64_encode	decode/base64.c	/^int base64_encode( char *gb2312string, char *base64string, int gb2312stringlen ) $/;"	f
+buffer	include/task.h	/^	char	buffer[MAX_BUF_SIZE];$/;"	m	struct:task
+buflen	include/task.h	/^	size_t 	buflen;$/;"	m	struct:task
+clear_hashtable	hash-table/hash.c	/^void clear_hashtable()$/;"	f
+clear_log	log/infolog.c	/^int clear_log( )$/;"	f
+close_log	log/infolog.c	/^int close_log(int fd)$/;"	f
+container_of	include/mylist.h	64;"	d
+dd_get_keyword	pthread-func/pthread_func.c	/^int dd_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+do_log	log/infolog.c	/^int do_log(char *comments, int len, int level)$/;"	f
+gb2312_to_unicode	include/gb2312_to_unicode.h	/^unsigned short gb2312_to_unicode[7445][2] = {$/;"	v
+gb2312_to_utf8	decode/gb2312_to_utf8.c	/^int gb2312_to_utf8(unsigned char *gb2312string, int gb2312string_len, unsigned char *utf8string)$/;"	f
+gb_2_uni	include/code.h	/^unsigned short gb_2_uni[95][95];$/;"	v
+gb_to_unicode	decode/gb2312_to_utf8.c	/^void gb_to_unicode()$/;"	f
+get_keyword	pthread-func/pthread_func.c	/^int get_keyword(char *keyword, char *urlcode, size_t urllen)$/;"	f
+getnext	kmp-mt/kmp.c	/^void getnext(char *p, int *next)$/;"	f
+getone	decode/urldecode.c	/^unsigned int getone(unsigned char ch1, unsigned char ch2){$/;"	f
+hash_del_keyword	hash-table/hash.c	/^int hash_del_keyword(unsigned char *keyword, int wordlen)$/;"	f
+hash_find_keyword	hash-table/hash.c	/^int hash_find_keyword(unsigned char *keyword, int wordlen)$/;"	f
+hash_func	hash-table/hash.c	/^void *hash_func(void *arg)$/;"	f
+hash_insert_keyword	hash-table/hash.c	/^void hash_insert_keyword(unsigned char *keyword, int wordlen)$/;"	f
+hash_mutex	hash-table/hash.h	/^pthread_mutex_t hash_mutex;$/;"	v
+hashfunc	hash-table/hash.c	/^int hashfunc(unsigned char *keyword, int wordlen)$/;"	f
+hashtable	hash-table/hash.h	/^struct node hashtable[MAX_HASH_NODE];$/;"	v	typeref:struct:node
+hashtable_init	hash-table/hash.c	/^void hashtable_init()$/;"	f
+index	include/task.h	/^	size_t 	index;$/;"	m	struct:task
+info_cond	include/task.h	/^	pthread_cond_t 	info_cond;$/;"	m	struct:info_queue
+info_from_task	include/task.h	/^struct info_from_task{$/;"	s
+info_in_queue	include/task.h	/^	size_t 	info_in_queue;$/;"	m	struct:info_queue
+info_mutex	include/task.h	/^	pthread_mutex_t info_mutex;$/;"	m	struct:info_queue
+info_q	include/task.h	/^struct info_queue info_q;$/;"	v	typeref:struct:info_queue
+info_q_add	task/task.c	/^void info_q_add(struct info_from_task *info , struct info_queue * info_q)$/;"	f
+info_q_del	task/task.c	/^void info_q_del(struct list_head * del)$/;"	f
+info_queue	include/task.h	/^struct info_queue{$/;"	s
+infotime	include/task.h	/^	struct tm infotime;$/;"	m	struct:info_from_task	typeref:struct:info_from_task::tm
+init_info_q	task/task.c	/^void init_info_q(struct info_queue * info_q)$/;"	f
+init_task	task/task.c	/^void init_task( struct task_queue *task_q)$/;"	f
+is_bigendian	decode/gb2312_to_utf8.c	/^int is_bigendian(){$/;"	f
+isgb2312encode	decode/checkencode.c	/^int isgb2312encode(unsigned char *gb2312string, int gb2312_len)$/;"	f
+isutf8encode	decode/checkencode.c	/^int isutf8encode(unsigned char *utf8string, int utf8_len){$/;"	f
+jd_get_keyword	pthread-func/pthread_func.c	/^int jd_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+keylen	hash-table/hash.h	/^	size_t keylen;$/;"	m	struct:node
+keyword	hash-table/hash.h	/^	void *keyword;$/;"	m	struct:node
+keyword	include/task.h	/^	char 	keyword[33];$/;"	m	struct:info_from_task
+kmp_pktmt	kmp-mt/kmp.c	/^char *kmp_pktmt(char *target, int len, char *p)$/;"	f
+kmp_strmt	kmp-mt/kmp.c	/^char *kmp_strmt(char *target, char *p)$/;"	f
+list	include/task.h	/^	struct 	list_head list;$/;"	m	struct:info_queue	typeref:struct:info_queue::list_head
+list	include/task.h	/^	struct 	list_head list;$/;"	m	struct:task	typeref:struct:task::list_head
+list	include/task.h	/^	struct list_head list;$/;"	m	struct:info_from_task	typeref:struct:info_from_task::list_head
+list_add	include/mylist.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	include/mylist.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_del	include/mylist.h	/^static inline void list_del(struct list_head *list)$/;"	f
+list_empty	include/mylist.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_entry	include/mylist.h	78;"	d
+list_first_entry	include/mylist.h	90;"	d
+list_first_or_null	include/mylist.h	94;"	d
+list_for_each	include/mylist.h	97;"	d
+list_for_each_entry	include/mylist.h	100;"	d
+list_head	include/mylist.h	/^struct list_head{$/;"	s
+m1_get_keyword	pthread-func/pthread_func.c	/^int m1_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+m_dd_get_keyword	pthread-func/pthread_func.c	/^int m_dd_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+m_jd_get_keyword	pthread-func/pthread_func.c	/^int m_jd_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+m_jmyp_get_keyword	pthread-func/pthread_func.c	/^int m_jmyp_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+m_pp_get_keyword	pthread-func/pthread_func.c	/^int m_pp_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+m_sn_get_keyword	pthread-func/pthread_func.c	/^int m_sn_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+m_tm_get_keyword	pthread-func/pthread_func.c	/^int m_tm_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+m_yhd_get_keyword	pthread-func/pthread_func.c	/^int m_yhd_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+m_yx_get_keyword	pthread-func/pthread_func.c	/^int m_yx_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
+main	kmp-mt/test.c	/^int main()$/;"	f
+main	log/test.c	/^int main()$/;"	f
+main	main.c	/^int main()$/;"	f
+message_pack	message/message.c	/^int message_pack(struct info_queue *infoq, void *message)$/;"	f
+message_send	message/message.c	/^int message_send(struct sockaddr_in *serveraddr, void *message, int messagelen)$/;"	f
+message_total_length	include/message.h	/^	size_t message_total_length;$/;"	m	struct:messagehdr
+message_type	include/message.h	/^	type_t message_type;$/;"	m	struct:messagehdr
+messagehdr	include/message.h	/^struct messagehdr{$/;"	s
+next	hash-table/hash.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	include/mylist.h	/^	struct list_head *prev,  *next;$/;"	m	struct:list_head	typeref:struct:list_head::
+node	hash-table/hash.h	/^struct node {$/;"	s
+obj	makefile	/^obj=main.o urldecode.o  gb2312_to_utf8.o checkencode.o  base64.o task.o pthread_func.o message.o hash.o infolog.o kmp.o$/;"	m
+offsetof	include/mylist.h	62;"	d
+open_log	log/infolog.c	/^int open_log()$/;"	f
+pkt_getnext	kmp-mt/kmp.c	/^void pkt_getnext(char *p, int plen, int *next)$/;"	f
+pktstr	kmp-mt/kmp.c	/^char *pktstr(char *pkt, int pktlen ,char *str){$/;"	f
+pp_get_keyword	pthread-func/pthread_func.c	/^int pp_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+prev	include/mylist.h	/^	struct list_head *prev,  *next;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+queue_head	include/task.h	/^	struct list_head queue_head;$/;"	m	struct:task_queue	typeref:struct:task_queue::list_head
+readaddr	task/task.c	/^void readaddr()$/;"	f
+redundancy	include/task.h	/^	short 	redundancy;$/;"	m	struct:info_from_task
+searchtype	include/task.h	/^	type_t 	searchtype;$/;"	m	struct:info_from_task
+server1	include/task.h	/^	struct 	sockaddr_in server1;$/;"	m	struct:info_queue	typeref:struct:info_queue::sockaddr_in
+server2	include/task.h	/^	struct 	sockaddr_in server2;$/;"	m	struct:info_queue	typeref:struct:info_queue::sockaddr_in
+sn_get_keyword	pthread-func/pthread_func.c	/^int sn_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+task	include/task.h	/^struct task{$/;"	s
+task_add	task/task.c	/^void task_add(struct task *newtask, struct task_queue *task_q)$/;"	f
+task_cond	include/task.h	/^	pthread_cond_t task_cond;$/;"	m	struct:task_queue
+task_del	task/task.c	/^void task_del(struct list_head *list)$/;"	f
+task_in_queue	include/task.h	/^	size_t task_in_queue;$/;"	m	struct:task_queue
+task_mutex	include/task.h	/^	pthread_mutex_t task_mutex;$/;"	m	struct:task_queue
+task_q	include/task.h	/^struct task_queue task_q;$/;"	v	typeref:struct:task_queue
+task_queue	include/task.h	/^struct task_queue{$/;"	s
+tb_get_keyword	pthread-func/pthread_func.c	/^int tb_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+thread_waiting	include/task.h	/^	size_t thread_waiting;$/;"	m	struct:task_queue
+tm_get_keyword	pthread-func/pthread_func.c	/^int tm_get_keyword(char *keyword, char *buffer, int buflen)$/;"	f
+type_t	include/task.h	/^typedef size_t type_t;$/;"	t
+uint_16	include/code.h	/^typedef unsigned short uint_16;$/;"	t
+uint_8	include/code.h	/^typedef unsigned char  uint_8;$/;"	t
+url_to_utf8	decode/checkencode.c	/^int url_to_utf8(unsigned char *keyword, unsigned char *url, int urllen)$/;"	f
+urldecode	decode/urldecode.c	/^int  urldecode(char *url, int urllen, unsigned char *decodeurl,int force){$/;"	f
+wchar	include/code.h	/^typedef uint_16 wchar;$/;"	t
+word_cmp	kmp-mt/kmp.c	/^int word_cmp(char *target , char *p, int len)$/;"	f
+wordlen	include/task.h	/^	size_t 	wordlen;$/;"	m	struct:info_from_task
+worker_func	pthread-func/pthread_func.c	/^void *worker_func(void *arg)$/;"	f
+writelog	log/infolog.c	/^int writelog(int fd, char * logbuf, int len)$/;"	f
+yx_get_keyword	pthread-func/pthread_func.c	/^int yx_get_keyword(char *keyword, char *buffer, int  buflen)$/;"	f
